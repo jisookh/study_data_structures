@@ -16,8 +16,3 @@ def gcd_rec(a,b):
         else: return gcd_rec(a,b%a)
     else:
         return a+b
-
-a = 5
-b = 7
-c = gcd_rec(a,b)
-print(c)
