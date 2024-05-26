@@ -5,7 +5,8 @@
 - 기타 연산자:
     * top: 가장 위의 값을 리턴 (삭제 X)
     * len: 스택에 저장된 값의 개수를 리턴
-    
+
+[stack.py](../연습문제/stack.py)    
 ```python
 class Stack:
     def __init__(self):
@@ -39,6 +40,7 @@ class Stack:
 최종적으로 문자열을 다 읽었을 때, 스택이 비어있으면 `True`\
 스택에 남아있는 괄호가 있거나, pop을 했는데 IndexError가 발생하면 `False`
 
+[stack-ex1.py](../연습문제/stack-ex1.py)    
 ```python
 def parenthesis(ParSeq):
     S = Stack()
